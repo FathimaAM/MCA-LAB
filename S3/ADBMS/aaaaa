@@ -1,0 +1,7 @@
+SET SERVEROUTPUT ON;
+DECLARE
+msg varchar(20):='hello world';
+BEGIN
+DBMS_OUTPUT.PUT_LINE(msg);
+END;
+/

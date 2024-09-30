@@ -1,0 +1,15 @@
+SET SERVEROUTPUT ON;
+
+DECLARE
+   radius NUMBER(6,2);
+   area NUMBER(6,3);
+   pi CONSTANT NUMBER(3,2) := 3.14;
+BEGIN
+   radius := &radius;
+   radius:=&radius;
+   DBMS_OUTPUT.PUT_LINE('radius is:'||radius);
+   
+   DBMS_OUTPUT.PUT_LINE('radius is: ' || radius);
+END;
+/
+
